@@ -6,6 +6,7 @@ Spring Social UsersConnectionRepository/ConnectionRepository implementation for 
 Using this library you can easily configure Spring Social for an application that use Neo4j as the database server. 
 
 ## 1. Add repository
+
     ```xml
     <repositories>
         <repository>
@@ -20,6 +21,7 @@ Using this library you can easily configure Spring Social for an application tha
     ```
 
 ## 2. Add dependency
+    
     
     ```xml
     <dependency>
@@ -47,6 +49,7 @@ Using this library you can easily configure Spring Social for an application tha
 ### 3.2 with a shared neo4j session
     
     * 3.2.1 First make sure "org.springframework.social.connect.neo4j.domain" is given at your factory creation 
+    
        ```java
        new SessionFactory("com.mycustom.domains",...,"org.springframework.social.connect.neo4j.domain")
        ```
