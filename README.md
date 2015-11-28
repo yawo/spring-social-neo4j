@@ -6,7 +6,7 @@ Spring Social UsersConnectionRepository/ConnectionRepository implementation for 
 Using this library you can easily configure Spring Social for an application that use Neo4j as the database server. 
 
 ## 1. Add repository
-    ```xml
+    ```
     <repositories>
         <repository>
             <id>spring-social-neo4j</id>
